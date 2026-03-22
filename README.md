@@ -66,6 +66,8 @@ Deletes all swipes except the currently displayed one on the **last AI message**
 
 Requires **SillyTavern `staging` or `release` branch**, reasonably recent (mid-2025 or later). No server plugin or Extras API required.
 
+Thoroughly tested on SillyTavern `1.16.0`.
+
 ---
 
 ## License
