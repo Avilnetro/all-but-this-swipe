@@ -1,0 +1,24 @@
+/* Injected popup button */
+.abts-delete-all-but-swipe {
+    color: var(--yellow, #f0c040) !important;
+    border-color: var(--yellow, #f0c040) !important;
+    transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.abts-delete-all-but-swipe:hover,
+.abts-delete-all-but-swipe:focus-visible {
+    background-color: var(--yellow, #f0c040) !important;
+    color: #1a1a1a !important;
+    border-color: var(--yellow, #f0c040) !important;
+    outline: none;
+}
+
+.abts-delete-all-but-swipe:active {
+    filter: brightness(0.85);
+}
+
+/* Icon alignment */
+.abts-delete-all-but-swipe i {
+    vertical-align: middle;
+    margin-right: 0.3em;
+}

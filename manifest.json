@@ -1,0 +1,11 @@
+{
+    "display_name": "All But This Swipe",
+    "loading_order": 6,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "Metro",
+    "version": "1.0.0",
+    "homePage": "https://github.com/Avilnetro"
+}
