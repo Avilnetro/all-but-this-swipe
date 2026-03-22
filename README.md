@@ -33,7 +33,7 @@ This is my attempt at rectifying my own bad habit.
    ```
    SillyTavern/public/scripts/extensions/third-party/all-but-this-swipe/
    ```
-2. Restart SillyTavern (or reload the page).
+2. Reload the page.
 3. Confirm the extension appears and is enabled under **Extensions → Manage Extensions**.
 
 ---
