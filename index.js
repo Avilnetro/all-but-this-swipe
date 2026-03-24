@@ -348,7 +348,7 @@ async function keepSwipeCallback(_namedArgs, _value) {
 function registerSlashCommand() {
     SlashCommandParser.addCommandObject(SlashCommand.fromProps({
         name: 'keepswipe',
-        aliases: ['delotherswipes'],
+//        aliases: ['delotherswipes'],
         callback: keepSwipeCallback,
         returns: 'the 0-based message ID that was operated on, or an empty string on failure',
         unnamedArgumentList: [],   // no arguments — always targets the last AI message
@@ -499,13 +499,13 @@ async function cleanAllSwipes() {
 }
 
 /**
- * Registers /cleanallswipes (alias: /delprevswipes) with the ST slash-command
+ * Registers /cleanallswipes (alias: /delallswipes) with the ST slash-command
  * parser.  No arguments — it always operates on the full active chat history.
  */
 function registerCleanAllSwipesCommand() {
     SlashCommandParser.addCommandObject(SlashCommand.fromProps({
         name: 'cleanallswipes',
-        aliases: ['delprevswipes'],
+        aliases: ['delallswipes'],
         callback: async (_namedArgs, _value) => cleanAllSwipes(),
         returns: 'a summary string describing how many messages and swipes were cleaned, or "clean" if nothing needed removing',
         unnamedArgumentList: [],
