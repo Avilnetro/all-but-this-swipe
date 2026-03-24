@@ -14,8 +14,9 @@ This is my attempt at rectifying my own bad habit.
 
 ## Features
 
-- **Popup button** — a "Delete All But This Swipe" button is injected directly into ST's native message deletion prompt, appearing alongside the existing "Delete Message", "Delete Swipe", and "Cancel" options. It is only shown when a message has more than one swipe.
-- **`/keepswipe` slash command** — performs the same action from the STscript pipeline, targeting the most recent AI message. Returns the zero-based message ID on success.
+- **Popup button** - a "Delete All But This Swipe" button is injected directly into ST's native message deletion prompt, appearing alongside the existing "Delete Message", "Delete Swipe", and "Cancel" options. It is only shown when a message has more than one swipe.
+- **`/keepswipe`** - performs the same action from the STscript pipeline, targeting the most recent AI message. Returns the zero-based message ID on success.
+- **`/cleanallswipes`** - cleans up all unused swipes in previous messages across entire chat history.
 
 ---
 
