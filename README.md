@@ -51,25 +51,12 @@ This is my attempt at rectifying my own bad habit.
 
 ### Slash command
 
-```stscript
-/keepswipe
-```
+`/keepswipe` - Deletes all swipes except the currently displayed one on the **last AI message** in the chat, then saves.
 
-Deletes all swipes except the currently displayed one on the **last AI message** in the chat, then saves.
+Can be used standalone or chained into a larger STscript pipeline: `/gen | /keepswipe`
 
-```stscript
-/gen | /keepswipe
-```
-
-Can be used standalone or chained into a larger STscript pipeline.
-
-```stscript
-/cleanallswipes
-```
-
-Deletes all unused background swipes from **every AI message** in the **entire chat history** retroactively, then saves.
-
-> Use this with caution, chat history cannot be restored without a backup.
+`/cleanallswipes` - Deletes all unused background swipes from **every AI message** in the **entire chat history** retroactively, then saves.
+> Use with caution, chat history cannot be restored without a backup.
 
 ---
 
